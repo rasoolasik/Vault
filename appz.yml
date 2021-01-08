@@ -1,7 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: appzdev@cloudbourne.co
+    notify: arasool@ecloudcontrol.com
 
 build:
     version: 0.4
@@ -9,10 +9,10 @@ build:
     build_file: none
     output_files: output/*.zip
     image_template: vault-1.2
-    image_name: alpha/vault
+    image_name: rasoolasik/vault
 
 deploy:
-    context: alpha/DEV
+    context: rasoolasik/DEV
     type: statefulset
     replicas: 1
     port:
